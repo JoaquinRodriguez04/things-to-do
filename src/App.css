@@ -13,6 +13,10 @@
     gap: 1em;
 }
 
+:is(.task-form-btn, .task-form-input){
+    width: 100%;
+}
+
 .task-title{
     margin-bottom: 1em;
 }
@@ -35,7 +39,6 @@
 
 .task-btn{
     margin-left: 1em;
-    padding: .3em .5em;
 }
 
 @media screen and (max-width:600px){
