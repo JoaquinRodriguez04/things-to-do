@@ -7,7 +7,7 @@ const ListTasks = () => {
 
   return (
     <ul className='task-ul'>
-        {tasks.map((task, id) => (
+        {tasks && tasks.map((task, id) => (
             <li 
               className='task-li' 
               key={id}>
