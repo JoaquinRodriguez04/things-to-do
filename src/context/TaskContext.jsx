@@ -11,7 +11,6 @@ export const TaskProvider = ({children}) => {
     const addTask = () => {
       if (newTask.trim() !== '') {
         setTasks([...tasks, newTask]);
-        console.log(tasks);
         setError('');
       } else{
         setError('el campo no puede estar vacio');
