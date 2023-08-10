@@ -19,8 +19,9 @@ const FormTasks = () => {
       <form className='task-form' onSubmit={handleSubmit(task)}>
           <input 
             type="text" 
+            className='task-form-input'
             {...register("task")} />
-          <button>Agregar tarea</button>
+          <button className='task-form-btn'>Agregar tarea</button>
       </form>
     </>
   )
